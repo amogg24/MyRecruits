@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Andrew Mogg</key>
+	<array>
+		<string>Windermere, FL</string>
+		<string>2016</string>
+		<string>VT</string>
+		<string>C</string>
+		<string>West Orange</string>
+		<string>4.0</string>
+		<string>Plus Arm</string>
+		<string>Mogg.png</string>
+		<string>4</string>
+		<string>amogg24@vt.edu</string>
+		<string>407-257-3512</string>
+	</array>
+	<key>Sam Fragale</key>
+	<array>
+		<string>Pittsburgh, PA</string>
+		<string>2017</string>
+		<string>N/A</string>
+		<string>2B</string>
+		<string>Seneca Valley</string>
+		<string>3.86</string>
+		<string>Projectable</string>
+		<string>Fragale.png</string>
+		<string>4</string>
+		<string>samf94@vt.edu</string>
+		<string>7248416727</string>
+	</array>
+	<key>Garrett Hudson</key>
+	<array>
+		<string>Selbyville, DE</string>
+		<string>2017</string>
+		<string>N/A</string>
+		<string>SS</string>
+		<string>Sussex Central</string>
+		<string>3.92</string>
+		<string>Great bat speed</string>
+		<string>Hudson.png</string>
+		<string>4</string>
+		<string>ghudson@vt.edu</string>
+		<string>3028411486</string>
+	</array>
+	<key>Aaron McGarrity</key>
+	<array>
+		<string>Richmond, VA</string>
+		<string>2017</string>
+		<string>VT</string>
+		<string>RHP</string>
+		<string>Cosby</string>
+		<string>3.39</string>
+		<string>Plus ASR, Plus Velo</string>
+		<string>McGarrity.png</string>
+		<string>3</string>
+		<string>aaron5@vt.edu</string>
+		<string>8049715604</string>
+	</array>
+	<key>Luis Collazo</key>
+	<array>
+		<string>Miami, FL</string>
+		<string>2016</string>
+		<string>N/A</string>
+		<string>LHP</string>
+		<string>Christopher Columbus</string>
+		<string>2.94</string>
+		<string>Low 3/4 Slot, ++ASR</string>
+		<string>Collazo.png</string>
+		<string>2</string>
+		<string>7865416646</string>
+		<string>luisxc1@vt.edu</string>
+	</array>
+	<key>Phil Sciretta</key>
+	<array>
+		<string>Boston, MA</string>
+		<string>2016</string>
+		<string>VT</string>
+		<string>1B</string>
+		<string>Noble</string>
+		<string>3.55</string>
+		<string>Power+</string>
+		<string>Sciretta.png</string>
+		<string>4</string>
+		<string>philrs16@vt.edu</string>
+		<string>7815615387</string>
+	</array>
+	<key>Kit Scheetz</key>
+	<array>
+		<string>Midlothian, VA</string>
+		<string>2020</string>
+		<string>VT</string>
+		<string>LHP</string>
+		<string>James River</string>
+		<string>4.0</string>
+		<string>Change++, Pitchabibilty &amp; Makeup++</string>
+		<string>Scheetz.png</string>
+		<string>4</string>
+		<string>kscheetz@vt.edu</string>
+		<string>8044020194</string>
+	</array>
+	<key>Joe Freiday Jr.</key>
+	<array>
+		<string>Boston, MA</string>
+		<string>2019</string>
+		<string>N/A</string>
+		<string>C</string>
+		<string>Bridgewater Raynhem</string>
+		<string>3.1</string>
+		<string>Power++</string>
+		<string>Freiday.png</string>
+		<string>3</string>
+		<string>joef24@vt.edu</string>
+		<string>5088589539</string>
+	</array>
+	<key>Chris Monaco</key>
+	<array>
+		<string>Blauvelt, NY</string>
+		<string>2019</string>
+		<string>N/A</string>
+		<string>RHP</string>
+		<string>Tappan Zee</string>
+		<string>2.7</string>
+		<string>Lanky projectability, curve+</string>
+		<string>Monaco.png</string>
+		<string>1</string>
+		<string>chrism14@vt.edu</string>
+		<string>8455219052</string>
+	</array>
+	<key>Andrew McDonald</key>
+	<array>
+		<string>Cincinnati, OH</string>
+		<string>2018</string>
+		<string>VT</string>
+		<string>RHP</string>
+		<string>Mason</string>
+		<string>3.8</string>
+		<string>Good downward plan and deception, ASR+</string>
+		<string>McDonald.png</string>
+		<string>3</string>
+		<string>hokiebb1@vt.edu</string>
+		<string>5133820637</string>
+	</array>
+	<key>Packy Naughton</key>
+	<array>
+		<string>West Roxbury, MA</string>
+		<string>2017</string>
+		<string>N/A</string>
+		<string>LHP</string>
+		<string>Boston Latin</string>
+		<string>LHP</string>
+		<string>Big, tight CB; 90-92 w/ sink</string>
+		<string>Naughton.png</string>
+		<string>4</string>
+		<string>packy8@vt.edu</string>
+		<string>7815263047</string>
+	</array>
+	<key>Ryan Lauria</key>
+	<array>
+		<string>Roanoke, VA</string>
+		<string>2018</string>
+		<string>VT</string>
+		<string>RHP</string>
+		<string>Hidden Valley</string>
+		<string>3.87</string>
+		<string>Good deception, heavy ball, plus change +</string>
+		<string>Lauria.png</string>
+		<string>3</string>
+		<string>lryan1@vt.edu</string>
+		<string>5407611600</string>
+	</array>
+	<key>Rahiem Cooper</key>
+	<array>
+		<string>Gordonsville, VA</string>
+		<string>2018</string>
+		<string>N/A</string>
+		<string>RF</string>
+		<string>Orange County</string>
+		<string>3.28</string>
+		<string>Sub 6.6; Quick, compact bat</string>
+		<string>Cooper.png</string>
+		<string>4</string>
+		<string>rahiemc@vt.edu</string>
+		<string>4343277402</string>
+	</array>
+	<key>Logan Bible</key>
+	<array>
+		<string>Framingham, MA</string>
+		<string>2016</string>
+		<string>VT</string>
+		<string>CF</string>
+		<string>Leesville Road</string>
+		<string>3.21</string>
+		<string>Sub 6.8; Quick jumps off bat, Gap to gap</string>
+		<string>Bible.png</string>
+		<string>3</string>
+		<string>loganb@vt.edu</string>
+		<string>5089544771</string>
+	</array>
+	<key>Connor Coward</key>
+	<array>
+		<string>Pittsburgh, PA</string>
+		<string>2018</string>
+		<string>N/A</string>
+		<string>RHP</string>
+		<string>Seneca Valley</string>
+		<string>3.45</string>
+		<string>Swing &amp; Miss CB, quick arm</string>
+		<string>Coward.png</string>
+		<string>3</string>
+		<string>connorc7@vt.edu</string>
+		<string>7245536129</string>
+	</array>
+	<key>Joey Sullivan</key>
+	<array>
+		<string>Mclean, VA</string>
+		<string>2018</string>
+		<string>VT</string>
+		<string>RHP</string>
+		<string>McLean</string>
+		<string>2.8</string>
+		<string>Quick arm, hides ball, tight slider</string>
+		<string>Sullivan.png</string>
+		<string>2</string>
+		<string>jsull@vt.edu</string>
+		<string>7032009161</string>
+	</array>
+</dict>
+</plist>

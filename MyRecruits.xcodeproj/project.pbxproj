@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC360EFD1C12C1BD00533130 /* HotelWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC360EFC1C12C1BD00533130 /* HotelWebViewController.swift */; };
+		FC426F181C10C34A00856FD8 /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC426F171C10C34A00856FD8 /* MapsViewController.swift */; };
+		FC4BE6591C112DF2000CDDFD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4BE6581C112DF2000CDDFD /* CoreLocation.framework */; };
+		FC4BE65E1C113B27000CDDFD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4BE65D1C113B27000CDDFD /* MapKit.framework */; };
+		FC4BE6661C1158A8000CDDFD /* DatabaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4BE6651C1158A8000CDDFD /* DatabaseViewController.swift */; };
+		FC4BE6681C1158D5000CDDFD /* DatabaseWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4BE6671C1158D5000CDDFD /* DatabaseWebViewController.swift */; };
+		FC69BDBB1C0B86DB009CF91B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC69BDBA1C0B86DB009CF91B /* AppDelegate.swift */; };
+		FC69BDC01C0B86DB009CF91B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC69BDBE1C0B86DB009CF91B /* Main.storyboard */; };
+		FC69BDC21C0B86DB009CF91B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC69BDC11C0B86DB009CF91B /* Assets.xcassets */; };
+		FC69BDC51C0B86DB009CF91B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC69BDC31C0B86DB009CF91B /* LaunchScreen.storyboard */; };
+		FC69BDD01C0B86DC009CF91B /* MyRecruitsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC69BDCF1C0B86DC009CF91B /* MyRecruitsTests.swift */; };
+		FC69BDDB1C0B86DC009CF91B /* MyRecruitsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC69BDDA1C0B86DC009CF91B /* MyRecruitsUITests.swift */; };
+		FC69BDE91C0B8753009CF91B /* MyRecruitsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC69BDE81C0B8753009CF91B /* MyRecruitsTableViewController.swift */; };
+		FC69BDEB1C0B87ED009CF91B /* MyRecruitsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC69BDEA1C0B87ED009CF91B /* MyRecruitsTableViewCell.swift */; };
+		FC69BDED1C0B890D009CF91B /* AddRecruitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC69BDEC1C0B890D009CF91B /* AddRecruitViewController.swift */; };
+		FC69BDF11C0B8966009CF91B /* RecruitInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC69BDF01C0B8966009CF91B /* RecruitInfoViewController.swift */; };
+		FC69BDF31C0B8A0D009CF91B /* Recruits.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC69BDF21C0B8A0D009CF91B /* Recruits.plist */; };
+		FCE56FD31C111599001270D8 /* MessageComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE56FD21C111599001270D8 /* MessageComposer.swift */; };
+		FCF083AA1C14C67C0075B031 /* Image.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCF083A91C14C67C0075B031 /* Image.plist */; };
+		FCF31DE51C172BCD0040B5A4 /* EditRecruitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF31DE41C172BCD0040B5A4 /* EditRecruitViewController.swift */; };
+		FCF31DE71C1739F50040B5A4 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF31DE61C1739F50040B5A4 /* FilterViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC69BDCC1C0B86DC009CF91B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC69BDAF1C0B86DB009CF91B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC69BDB61C0B86DB009CF91B;
+			remoteInfo = MyRecruits;
+		};
+		FC69BDD71C0B86DC009CF91B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC69BDAF1C0B86DB009CF91B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC69BDB61C0B86DB009CF91B;
+			remoteInfo = MyRecruits;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC360EFC1C12C1BD00533130 /* HotelWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelWebViewController.swift; sourceTree = "<group>"; };
+		FC426F171C10C34A00856FD8 /* MapsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
+		FC4BE6581C112DF2000CDDFD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FC4BE65D1C113B27000CDDFD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FC4BE6651C1158A8000CDDFD /* DatabaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseViewController.swift; sourceTree = "<group>"; };
+		FC4BE6671C1158D5000CDDFD /* DatabaseWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseWebViewController.swift; sourceTree = "<group>"; };
+		FC69BDB71C0B86DB009CF91B /* MyRecruits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRecruits.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC69BDBA1C0B86DB009CF91B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC69BDBF1C0B86DB009CF91B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC69BDC11C0B86DB009CF91B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC69BDC41C0B86DB009CF91B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC69BDC61C0B86DB009CF91B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC69BDCB1C0B86DC009CF91B /* MyRecruitsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyRecruitsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC69BDCF1C0B86DC009CF91B /* MyRecruitsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRecruitsTests.swift; sourceTree = "<group>"; };
+		FC69BDD11C0B86DC009CF91B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC69BDD61C0B86DC009CF91B /* MyRecruitsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyRecruitsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC69BDDA1C0B86DC009CF91B /* MyRecruitsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRecruitsUITests.swift; sourceTree = "<group>"; };
+		FC69BDDC1C0B86DC009CF91B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC69BDE81C0B8753009CF91B /* MyRecruitsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyRecruitsTableViewController.swift; sourceTree = "<group>"; };
+		FC69BDEA1C0B87ED009CF91B /* MyRecruitsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyRecruitsTableViewCell.swift; sourceTree = "<group>"; };
+		FC69BDEC1C0B890D009CF91B /* AddRecruitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddRecruitViewController.swift; sourceTree = "<group>"; };
+		FC69BDF01C0B8966009CF91B /* RecruitInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecruitInfoViewController.swift; sourceTree = "<group>"; };
+		FC69BDF21C0B8A0D009CF91B /* Recruits.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Recruits.plist; sourceTree = "<group>"; };
+		FCE56FD21C111599001270D8 /* MessageComposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageComposer.swift; sourceTree = "<group>"; };
+		FCF083A91C14C67C0075B031 /* Image.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Image.plist; sourceTree = "<group>"; };
+		FCF31DE41C172BCD0040B5A4 /* EditRecruitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditRecruitViewController.swift; sourceTree = "<group>"; };
+		FCF31DE61C1739F50040B5A4 /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC69BDB41C0B86DB009CF91B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4BE65E1C113B27000CDDFD /* MapKit.framework in Frameworks */,
+				FC4BE6591C112DF2000CDDFD /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC69BDC81C0B86DC009CF91B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC69BDD31C0B86DC009CF91B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC4BE6691C1158E5000CDDFD /* Recruit Address Book */ = {
+			isa = PBXGroup;
+			children = (
+				FC69BDE81C0B8753009CF91B /* MyRecruitsTableViewController.swift */,
+				FC69BDEA1C0B87ED009CF91B /* MyRecruitsTableViewCell.swift */,
+				FC69BDEC1C0B890D009CF91B /* AddRecruitViewController.swift */,
+				FC69BDF01C0B8966009CF91B /* RecruitInfoViewController.swift */,
+				FCE56FD21C111599001270D8 /* MessageComposer.swift */,
+				FCF31DE41C172BCD0040B5A4 /* EditRecruitViewController.swift */,
+				FCF31DE61C1739F50040B5A4 /* FilterViewController.swift */,
+			);
+			name = "Recruit Address Book";
+			sourceTree = "<group>";
+		};
+		FC4BE66B1C115924000CDDFD /* Travel Help View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FC426F171C10C34A00856FD8 /* MapsViewController.swift */,
+				FC360EFC1C12C1BD00533130 /* HotelWebViewController.swift */,
+			);
+			name = "Travel Help View Controllers";
+			sourceTree = "<group>";
+		};
+		FC4BE66C1C11594A000CDDFD /* Property Lists */ = {
+			isa = PBXGroup;
+			children = (
+				FC69BDC61C0B86DB009CF91B /* Info.plist */,
+				FC69BDF21C0B8A0D009CF91B /* Recruits.plist */,
+				FCF083A91C14C67C0075B031 /* Image.plist */,
+			);
+			name = "Property Lists";
+			sourceTree = "<group>";
+		};
+		FC4BE66D1C11597E000CDDFD /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				FC4BE6651C1158A8000CDDFD /* DatabaseViewController.swift */,
+				FC4BE6671C1158D5000CDDFD /* DatabaseWebViewController.swift */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		FC69BDAE1C0B86DB009CF91B = {
+			isa = PBXGroup;
+			children = (
+				FC4BE65D1C113B27000CDDFD /* MapKit.framework */,
+				FC4BE6581C112DF2000CDDFD /* CoreLocation.framework */,
+				FC69BDB91C0B86DB009CF91B /* MyRecruits */,
+				FC69BDCE1C0B86DC009CF91B /* MyRecruitsTests */,
+				FC69BDD91C0B86DC009CF91B /* MyRecruitsUITests */,
+				FC69BDB81C0B86DB009CF91B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC69BDB81C0B86DB009CF91B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC69BDB71C0B86DB009CF91B /* MyRecruits.app */,
+				FC69BDCB1C0B86DC009CF91B /* MyRecruitsTests.xctest */,
+				FC69BDD61C0B86DC009CF91B /* MyRecruitsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC69BDB91C0B86DB009CF91B /* MyRecruits */ = {
+			isa = PBXGroup;
+			children = (
+				FC69BDBA1C0B86DB009CF91B /* AppDelegate.swift */,
+				FC4BE66C1C11594A000CDDFD /* Property Lists */,
+				FC4BE6691C1158E5000CDDFD /* Recruit Address Book */,
+				FC4BE66B1C115924000CDDFD /* Travel Help View Controllers */,
+				FC4BE66D1C11597E000CDDFD /* Database */,
+				FC69BDBE1C0B86DB009CF91B /* Main.storyboard */,
+				FC69BDC11C0B86DB009CF91B /* Assets.xcassets */,
+				FC69BDC31C0B86DB009CF91B /* LaunchScreen.storyboard */,
+			);
+			path = MyRecruits;
+			sourceTree = "<group>";
+		};
+		FC69BDCE1C0B86DC009CF91B /* MyRecruitsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC69BDCF1C0B86DC009CF91B /* MyRecruitsTests.swift */,
+				FC69BDD11C0B86DC009CF91B /* Info.plist */,
+			);
+			path = MyRecruitsTests;
+			sourceTree = "<group>";
+		};
+		FC69BDD91C0B86DC009CF91B /* MyRecruitsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC69BDDA1C0B86DC009CF91B /* MyRecruitsUITests.swift */,
+				FC69BDDC1C0B86DC009CF91B /* Info.plist */,
+			);
+			path = MyRecruitsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC69BDB61C0B86DB009CF91B /* MyRecruits */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC69BDDF1C0B86DC009CF91B /* Build configuration list for PBXNativeTarget "MyRecruits" */;
+			buildPhases = (
+				FC69BDB31C0B86DB009CF91B /* Sources */,
+				FC69BDB41C0B86DB009CF91B /* Frameworks */,
+				FC69BDB51C0B86DB009CF91B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyRecruits;
+			productName = MyRecruits;
+			productReference = FC69BDB71C0B86DB009CF91B /* MyRecruits.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC69BDCA1C0B86DC009CF91B /* MyRecruitsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC69BDE21C0B86DC009CF91B /* Build configuration list for PBXNativeTarget "MyRecruitsTests" */;
+			buildPhases = (
+				FC69BDC71C0B86DC009CF91B /* Sources */,
+				FC69BDC81C0B86DC009CF91B /* Frameworks */,
+				FC69BDC91C0B86DC009CF91B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC69BDCD1C0B86DC009CF91B /* PBXTargetDependency */,
+			);
+			name = MyRecruitsTests;
+			productName = MyRecruitsTests;
+			productReference = FC69BDCB1C0B86DC009CF91B /* MyRecruitsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC69BDD51C0B86DC009CF91B /* MyRecruitsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC69BDE51C0B86DC009CF91B /* Build configuration list for PBXNativeTarget "MyRecruitsUITests" */;
+			buildPhases = (
+				FC69BDD21C0B86DC009CF91B /* Sources */,
+				FC69BDD31C0B86DC009CF91B /* Frameworks */,
+				FC69BDD41C0B86DC009CF91B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC69BDD81C0B86DC009CF91B /* PBXTargetDependency */,
+			);
+			name = MyRecruitsUITests;
+			productName = MyRecruitsUITests;
+			productReference = FC69BDD61C0B86DC009CF91B /* MyRecruitsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC69BDAF1C0B86DB009CF91B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Andrew Mogg";
+				TargetAttributes = {
+					FC69BDB61C0B86DB009CF91B = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = G5B8CK3AQ9;
+					};
+					FC69BDCA1C0B86DC009CF91B = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = FC69BDB61C0B86DB009CF91B;
+					};
+					FC69BDD51C0B86DC009CF91B = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = FC69BDB61C0B86DB009CF91B;
+					};
+				};
+			};
+			buildConfigurationList = FC69BDB21C0B86DB009CF91B /* Build configuration list for PBXProject "MyRecruits" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC69BDAE1C0B86DB009CF91B;
+			productRefGroup = FC69BDB81C0B86DB009CF91B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC69BDB61C0B86DB009CF91B /* MyRecruits */,
+				FC69BDCA1C0B86DC009CF91B /* MyRecruitsTests */,
+				FC69BDD51C0B86DC009CF91B /* MyRecruitsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC69BDB51C0B86DB009CF91B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC69BDC51C0B86DB009CF91B /* LaunchScreen.storyboard in Resources */,
+				FC69BDF31C0B8A0D009CF91B /* Recruits.plist in Resources */,
+				FC69BDC21C0B86DB009CF91B /* Assets.xcassets in Resources */,
+				FCF083AA1C14C67C0075B031 /* Image.plist in Resources */,
+				FC69BDC01C0B86DB009CF91B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC69BDC91C0B86DC009CF91B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC69BDD41C0B86DC009CF91B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC69BDB31C0B86DB009CF91B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC69BDF11C0B8966009CF91B /* RecruitInfoViewController.swift in Sources */,
+				FC426F181C10C34A00856FD8 /* MapsViewController.swift in Sources */,
+				FC69BDE91C0B8753009CF91B /* MyRecruitsTableViewController.swift in Sources */,
+				FC69BDEB1C0B87ED009CF91B /* MyRecruitsTableViewCell.swift in Sources */,
+				FC4BE6681C1158D5000CDDFD /* DatabaseWebViewController.swift in Sources */,
+				FCE56FD31C111599001270D8 /* MessageComposer.swift in Sources */,
+				FCF31DE71C1739F50040B5A4 /* FilterViewController.swift in Sources */,
+				FC360EFD1C12C1BD00533130 /* HotelWebViewController.swift in Sources */,
+				FC4BE6661C1158A8000CDDFD /* DatabaseViewController.swift in Sources */,
+				FCF31DE51C172BCD0040B5A4 /* EditRecruitViewController.swift in Sources */,
+				FC69BDBB1C0B86DB009CF91B /* AppDelegate.swift in Sources */,
+				FC69BDED1C0B890D009CF91B /* AddRecruitViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC69BDC71C0B86DC009CF91B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC69BDD01C0B86DC009CF91B /* MyRecruitsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC69BDD21C0B86DC009CF91B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC69BDDB1C0B86DC009CF91B /* MyRecruitsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC69BDCD1C0B86DC009CF91B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC69BDB61C0B86DB009CF91B /* MyRecruits */;
+			targetProxy = FC69BDCC1C0B86DC009CF91B /* PBXContainerItemProxy */;
+		};
+		FC69BDD81C0B86DC009CF91B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC69BDB61C0B86DB009CF91B /* MyRecruits */;
+			targetProxy = FC69BDD71C0B86DC009CF91B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC69BDBE1C0B86DB009CF91B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC69BDBF1C0B86DB009CF91B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC69BDC31C0B86DB009CF91B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC69BDC41C0B86DB009CF91B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC69BDDD1C0B86DC009CF91B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC69BDDE1C0B86DC009CF91B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC69BDE01C0B86DC009CF91B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MyRecruits/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewmogg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FC69BDE11C0B86DC009CF91B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MyRecruits/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewmogg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FC69BDE31C0B86DC009CF91B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyRecruitsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewmogg.MyRecruitsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyRecruits.app/MyRecruits";
+			};
+			name = Debug;
+		};
+		FC69BDE41C0B86DC009CF91B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyRecruitsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewmogg.MyRecruitsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyRecruits.app/MyRecruits";
+			};
+			name = Release;
+		};
+		FC69BDE61C0B86DC009CF91B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyRecruitsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewmogg.MyRecruitsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyRecruits;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FC69BDE71C0B86DC009CF91B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyRecruitsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewmogg.MyRecruitsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyRecruits;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC69BDB21C0B86DB009CF91B /* Build configuration list for PBXProject "MyRecruits" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC69BDDD1C0B86DC009CF91B /* Debug */,
+				FC69BDDE1C0B86DC009CF91B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC69BDDF1C0B86DC009CF91B /* Build configuration list for PBXNativeTarget "MyRecruits" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC69BDE01C0B86DC009CF91B /* Debug */,
+				FC69BDE11C0B86DC009CF91B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC69BDE21C0B86DC009CF91B /* Build configuration list for PBXNativeTarget "MyRecruitsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC69BDE31C0B86DC009CF91B /* Debug */,
+				FC69BDE41C0B86DC009CF91B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC69BDE51C0B86DC009CF91B /* Build configuration list for PBXNativeTarget "MyRecruitsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC69BDE61C0B86DC009CF91B /* Debug */,
+				FC69BDE71C0B86DC009CF91B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC69BDAF1C0B86DB009CF91B /* Project object */;
+}

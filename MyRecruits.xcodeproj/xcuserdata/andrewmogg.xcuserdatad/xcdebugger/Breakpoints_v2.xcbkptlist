@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyRecruits/MapsViewController.swift"
+            timestampString = "471325212.2601"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "221"
+            endingLineNumber = "221"
+            landmarkName = "getDirectionsButtonTapped(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyRecruits/MyRecruitsTableViewController.swift"
+            timestampString = "471054543.527497"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "MyRecruitsTableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyRecruits.MyRecruitsTableViewController.__deallocating_deinit"
+                  moduleName = "MyRecruits"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewmogg/Documents/Virginia%20Tech/Senior%20Year/CS%203714%20Mobile/Semester%20Project/MyRecruits/MyRecruits/MyRecruitsTableViewController.swift"
+                  timestampString = "471054543.545482"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyRecruits.MyRecruitsTableViewController.init (MyRecruits.MyRecruitsTableViewController.Type)(style : __C.UITableViewStyle) -&gt; MyRecruits.MyRecruitsTableViewController"
+                  moduleName = "MyRecruits"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewmogg/Documents/Virginia%20Tech/Senior%20Year/CS%203714%20Mobile/Semester%20Project/MyRecruits/MyRecruits/MyRecruitsTableViewController.swift"
+                  timestampString = "471054543.545811"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyRecruits.MyRecruitsTableViewController.init (MyRecruits.MyRecruitsTableViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; MyRecruits.MyRecruitsTableViewController"
+                  moduleName = "MyRecruits"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewmogg/Documents/Virginia%20Tech/Senior%20Year/CS%203714%20Mobile/Semester%20Project/MyRecruits/MyRecruits/MyRecruitsTableViewController.swift"
+                  timestampString = "471054543.546044"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyRecruits.MyRecruitsTableViewController.init (MyRecruits.MyRecruitsTableViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;MyRecruits.MyRecruitsTableViewController&gt;"
+                  moduleName = "MyRecruits"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewmogg/Documents/Virginia%20Tech/Senior%20Year/CS%203714%20Mobile/Semester%20Project/MyRecruits/MyRecruits/MyRecruitsTableViewController.swift"
+                  timestampString = "471054543.546265"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyRecruits/AddRecruitViewController.swift"
+            timestampString = "471292203.21552"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
+            landmarkName = "backgroundTouch(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyRecruits/MyRecruitsTableViewController.swift"
+            timestampString = "471292203.21552"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyRecruits/EditRecruitViewController.swift"
+            timestampString = "471292203.21552"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "checkPosition(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyRecruits/EditRecruitViewController.swift"
+            timestampString = "471292203.21552"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "checkPosition(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
