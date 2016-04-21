@@ -1,4 +1,4 @@
-# README
+# MyRecruits-iOS App
 
 Recruiting high school baseball players from all over the country can be a challenging task for college baseball coaches. The hope with this app is it aids college baseball coaches in their recruiting process. 
 Coaches want the best possible players on their 35 man rosters and this app can help them achieve them that because it provides accessibility during their recruiting trips. 
